@@ -95,9 +95,9 @@ public class anotherexsistingemp {
 		         // Optional: Click the button that opens the modal
 		         // driver.findElement(By.id("editButton")).click();
 Thread.sleep(50000);
-		         WebElement modal = efwait.until(ExpectedConditions.visibilityOfElementLocated(
-		             By.xpath("//div[contains(@class, 'modal-content')]")
-		         ));
+		         // WebElement modal = efwait.until(ExpectedConditions.visibilityOfElementLocated(
+		             // By.xpath("//div[contains(@class, 'modal-content')]")
+		         // ));
 		         Thread.sleep(50000);
 		         driver.findElement(By.xpath("//input[@placeholder='Enter course']")).sendKeys("B.Tech");
 		         driver.findElement(By.xpath("//input[@placeholder='Enter specialization']")).sendKeys("Computer Science");
