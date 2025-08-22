@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.Random;
 
-public class employee_login {
+public class eployeelogintoprofiledocuements {
     public static void main(String[] args) {
         ChromeOptions options = new ChromeOptions();
         WebDriver driver = new ChromeDriver(options);
